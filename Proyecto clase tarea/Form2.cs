@@ -31,7 +31,7 @@ namespace Proyecto_clase_tarea
                
             } }catch(Exception ex)
             {
-                MessageBox.Show("Cagaste en algo chavon");
+                MessageBox.Show("Archivo no valido o no se selecciono nada");
             }
             
             
@@ -49,7 +49,7 @@ namespace Proyecto_clase_tarea
                 }
                 this.territoriesTableAdapter.Fill(this.northwindDataSet.Territories);
 
-            } catch(Exception ex) { MessageBox.Show("Cagaste en algo chavon"); }
+            } catch(Exception ex) { MessageBox.Show("Ni yo se que hiciste para arruinarlo"); }
             
             
         }
