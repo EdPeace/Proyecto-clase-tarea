@@ -24,5 +24,11 @@ namespace Proyecto_clase_tarea
 
             this.reportViewer1.RefreshReport();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 o = new Form2();
+            o.Show();
+        }
     }
 }
