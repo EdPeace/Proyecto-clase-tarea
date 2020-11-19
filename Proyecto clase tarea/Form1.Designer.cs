@@ -29,51 +29,63 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.northwindDataSet = new Proyecto_clase_tarea.northwindDataSet();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.ProductosEnviadosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.northwindDataSet = new Proyecto_clase_tarea.northwindDataSet();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.ProductosEnviadosTableAdapter = new Proyecto_clase_tarea.northwindDataSetTableAdapters.ProductosEnviadosTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.northwindDataSet)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ProductosEnviadosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.northwindDataSet)).BeginInit();
             this.SuspendLayout();
-            // 
-            // reportViewer1
-            // 
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.ProductosEnviadosBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Proyecto_clase_tarea.Report1.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(21, 71);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(396, 246);
-            this.reportViewer1.TabIndex = 0;
-            // 
-            // northwindDataSet
-            // 
-            this.northwindDataSet.DataSetName = "northwindDataSet";
-            this.northwindDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // ProductosEnviadosBindingSource
             // 
             this.ProductosEnviadosBindingSource.DataMember = "ProductosEnviados";
             this.ProductosEnviadosBindingSource.DataSource = this.northwindDataSet;
             // 
+            // northwindDataSet
+            // 
+            this.northwindDataSet.DataSetName = "northwindDataSet";
+            this.northwindDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // reportViewer1
+            // 
+            reportDataSource2.Name = "DataSet1";
+            reportDataSource2.Value = this.ProductosEnviadosBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Proyecto_clase_tarea.Report1.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(21, 71);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.Size = new System.Drawing.Size(396, 246);
+            this.reportViewer1.TabIndex = 0;
+            // 
             // ProductosEnviadosTableAdapter
             // 
             this.ProductosEnviadosTableAdapter.ClearBeforeFill = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(502, 165);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Importar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(686, 409);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.reportViewer1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.northwindDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ProductosEnviadosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.northwindDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -84,6 +96,7 @@
         private System.Windows.Forms.BindingSource ProductosEnviadosBindingSource;
         private northwindDataSet northwindDataSet;
         private northwindDataSetTableAdapters.ProductosEnviadosTableAdapter ProductosEnviadosTableAdapter;
+        private System.Windows.Forms.Button button1;
     }
 }
 
