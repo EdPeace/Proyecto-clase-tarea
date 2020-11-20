@@ -6,15 +6,15 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>3.21437cm</Width>
+              <Width>3.89347cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.21437cm</Width>
+              <Width>3.89347cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.6cm</Height>
+              <Height>0.82931cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -26,7 +26,11 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Quantity</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lato</FontFamily>
+                                <FontWeight>Heavy</FontWeight>
+                                <TextDecoration>None</TextDecoration>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -56,7 +60,11 @@
                           <TextRuns>
                             <TextRun>
                               <Value>Unit Price</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lato</FontFamily>
+                                <FontWeight>Heavy</FontWeight>
+                                <TextDecoration>None</TextDecoration>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -79,7 +87,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.6cm</Height>
+              <Height>0.82931cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -91,7 +99,11 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Sum(Fields!Quantity.Value)</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lato</FontFamily>
+                                <FontWeight>Heavy</FontWeight>
+                                <TextDecoration>None</TextDecoration>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -121,7 +133,11 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Sum(Fields!UnitPrice.Value)</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lato</FontFamily>
+                                <FontWeight>Heavy</FontWeight>
+                                <TextDecoration>None</TextDecoration>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -144,7 +160,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.6cm</Height>
+              <Height>0.82931cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -156,7 +172,11 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Sum(Fields!Quantity.Value)</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lato</FontFamily>
+                                <FontWeight>Heavy</FontWeight>
+                                <TextDecoration>None</TextDecoration>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -186,7 +206,11 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=Sum(Fields!UnitPrice.Value)</Value>
-                              <Style />
+                              <Style>
+                                <FontFamily>Lato</FontFamily>
+                                <FontWeight>Heavy</FontWeight>
+                                <TextDecoration>None</TextDecoration>
+                              </Style>
                             </TextRun>
                           </TextRuns>
                           <Style />
@@ -220,7 +244,7 @@
           <TablixMembers>
             <TablixMember>
               <TablixHeader>
-                <Size>3.21437cm</Size>
+                <Size>3.89347cm</Size>
                 <CellContents>
                   <Textbox Name="Textbox5">
                     <CanGrow>true</CanGrow>
@@ -230,7 +254,11 @@
                         <TextRuns>
                           <TextRun>
                             <Value>Product Name</Value>
-                            <Style />
+                            <Style>
+                              <FontFamily>Lato</FontFamily>
+                              <FontWeight>Heavy</FontWeight>
+                              <TextDecoration>None</TextDecoration>
+                            </Style>
                           </TextRun>
                         </TextRuns>
                         <Style />
@@ -266,7 +294,7 @@
                 </SortExpression>
               </SortExpressions>
               <TablixHeader>
-                <Size>3.21437cm</Size>
+                <Size>3.89347cm</Size>
                 <CellContents>
                   <Textbox Name="ProductName">
                     <CanGrow>true</CanGrow>
@@ -276,7 +304,11 @@
                         <TextRuns>
                           <TextRun>
                             <Value>=Fields!ProductName.Value</Value>
-                            <Style />
+                            <Style>
+                              <FontFamily>Lato</FontFamily>
+                              <FontWeight>Heavy</FontWeight>
+                              <TextDecoration>None</TextDecoration>
+                            </Style>
                           </TextRun>
                         </TextRuns>
                         <Style />
@@ -302,7 +334,7 @@
             </TablixMember>
             <TablixMember>
               <TablixHeader>
-                <Size>3.21437cm</Size>
+                <Size>3.89347cm</Size>
                 <CellContents>
                   <Textbox Name="Textbox7">
                     <CanGrow>true</CanGrow>
@@ -312,7 +344,11 @@
                         <TextRuns>
                           <TextRun>
                             <Value>Total</Value>
-                            <Style />
+                            <Style>
+                              <FontFamily>Lato</FontFamily>
+                              <FontWeight>Heavy</FontWeight>
+                              <TextDecoration>None</TextDecoration>
+                            </Style>
                           </TextRun>
                         </TextRuns>
                         <Style />
@@ -339,16 +375,18 @@
         <DataSetName>DataSet1</DataSetName>
         <Top>1.85208cm</Top>
         <Left>2.03729cm</Left>
-        <Height>1.8cm</Height>
-        <Width>9.64312cm</Width>
+        <Height>2.48792cm</Height>
+        <Width>11.6804cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
+            <Width>5pt</Width>
           </Border>
+          <FontFamily>Lato Semibold</FontFamily>
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>2in</Height>
+    <Height>3.09375in</Height>
     <Style />
   </Body>
   <Width>6.5in</Width>

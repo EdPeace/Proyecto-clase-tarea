@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource2 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.ProductosEnviadosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.northwindDataSet = new Proyecto_clase_tarea.northwindDataSet();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
@@ -51,13 +51,13 @@
             // 
             // reportViewer1
             // 
-            reportDataSource2.Name = "DataSet1";
-            reportDataSource2.Value = this.ProductosEnviadosBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource2);
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.ProductosEnviadosBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "Proyecto_clase_tarea.Report1.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(21, 71);
+            this.reportViewer1.Location = new System.Drawing.Point(10, 12);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(396, 246);
+            this.reportViewer1.Size = new System.Drawing.Size(664, 246);
             this.reportViewer1.TabIndex = 0;
             // 
             // ProductosEnviadosTableAdapter
@@ -66,11 +66,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(502, 165);
+            this.button1.Location = new System.Drawing.Point(229, 308);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(211, 89);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Importar";
+            this.button1.Text = "Importar Datos A Una Tabla";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
